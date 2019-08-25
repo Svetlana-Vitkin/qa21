@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.wikipedia.LoginWikiTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2019-08-25T12:20:17" hostname="DESKTOP-5FQ94RQ" time="0.016">
+<testsuite name="com.telran.wikipedia.LoginWikiTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2019-08-25T21:04:28" hostname="DESKTOP-5FQ94RQ" time="0.015">
   <properties/>
-  <testcase name="setUp" classname="com.telran.wikipedia.LoginWikiTest" time="0.016">
+  <testcase name="setUp" classname="com.telran.wikipedia.LoginWikiTest" time="0.006">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.telran.wikipedia.LoginWikiTest.setUp(LoginWikiTest.java:12)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -59,7 +59,7 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="tearDown" classname="com.telran.wikipedia.LoginWikiTest" time="0.0">
+  <testcase name="tearDown" classname="com.telran.wikipedia.LoginWikiTest" time="0.002">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.telran.wikipedia.TestBaseWiKi.tearDown(TestBaseWiKi.java:22)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

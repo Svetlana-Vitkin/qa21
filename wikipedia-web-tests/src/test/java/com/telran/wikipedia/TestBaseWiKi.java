@@ -14,7 +14,7 @@ public class TestBaseWiKi {
     @BeforeMethod
     public void setUp() throws InterruptedException {
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.NANOSECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.NANOSECONDS);
     }
 
     @AfterMethod
