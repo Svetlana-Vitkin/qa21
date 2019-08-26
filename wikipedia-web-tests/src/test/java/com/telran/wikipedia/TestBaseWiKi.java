@@ -18,7 +18,8 @@ public class TestBaseWiKi {
     }
 
     @AfterMethod
-    public void tearDown(){
+    public void tearDown() throws InterruptedException {
+        Thread.sleep(20000);
         driver.quit();
     }
 }

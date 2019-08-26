@@ -1,15 +1,13 @@
 package com.telran.wikipedia;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class LoginWikiTest extends TestBaseWiKi {
 
     @Test
-    public void setUp() throws InterruptedException {
-        driver.get("https://en.wikipedia.org/wiki/Main_Page");
+    public void testLogin() {
+        driver.get("https://en.wikipedia.org");
         click(By.id("pt-login"));
 
         click(By.id("wpName1"));
@@ -21,7 +19,6 @@ public class LoginWikiTest extends TestBaseWiKi {
         driver.findElement(By.id("wpPassword1")).sendKeys("sveta123456");
 
         click(By.id("wpLoginAttempt"));
-        Thread.sleep(30000);
     }
 
     public void clear(By id) { driver.findElement(id).clear(); }
