@@ -2,7 +2,6 @@ package com.telran.wikipedia;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class SearchWikiTest extends TestBaseWiKi{

@@ -1,6 +1,5 @@
 package com.telran.selenium;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class LoginToEbay extends TestBase{
