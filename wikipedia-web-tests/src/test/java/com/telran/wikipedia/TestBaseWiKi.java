@@ -1,25 +1,19 @@
 package com.telran.wikipedia;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import java.util.concurrent.TimeUnit;
-
 public class TestBaseWiKi {
-
-    WebDriver driver;
+    protected static ApplicationMeneger app = new ApplicationMeneger();
 
     @BeforeMethod
     public void setUp() throws InterruptedException {
-        driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.NANOSECONDS);
+        app.init();
     }
 
     @AfterMethod
     public void tearDown() throws InterruptedException {
-        Thread.sleep(20000);
-        driver.quit();
+        app.stop();
     }
 }

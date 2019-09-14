@@ -8,9 +8,7 @@ public class SearchWikiTest extends TestBaseWiKi{
 
     @Test
     public void testS(){
-        driver.get("https://en.wikipedia.org");
-        driver.findElement(By.name("search")).click();
-        driver.findElement(By.name("search")).clear();
-        driver.findElement(By.name("search")).sendKeys("java"+ Keys.ENTER);
+        app.driver.get("https://en.wikipedia.org");
+        app.type(By.name("search"),"java"+ Keys.ENTER);
     }
 }
