@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.wikipedia.tests.LoginWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-01T11:57:09" hostname="DESKTOP-5FQ94RQ" time="5.338">
+  <properties/>
+  <testcase name="loginTest" classname="com.telran.wikipedia.tests.LoginWikiTest" time="5.338"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
